@@ -47,7 +47,6 @@ nav a:hover {
   gap: 20px;
   padding: 40px 20px;
   background-color: #fbeaf2;
-  
 }
 
 .produto {
@@ -58,7 +57,6 @@ nav a:hover {
   height: 70vh;
   text-align: center;
   font-weight: 200;
-  
 }
 
 .produto img {
@@ -79,7 +77,7 @@ h3 {
 p {
   margin-top: 10px;
   margin-bottom: 10px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;
@@ -104,6 +102,18 @@ p:hover {
 .btn:hover {
   background-color: #c45e8c;
   transform: scale(1.05);
+}
+
+button {
+  background-color: #d86f9c;
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  
 }
 
 /* .modal {
