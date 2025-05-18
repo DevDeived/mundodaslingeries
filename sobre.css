@@ -148,3 +148,10 @@ section.sobre::before {
     margin: 10px 0;
   }
 }
+
+footer {
+  background-color: #fad2e1;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
