@@ -27,6 +27,7 @@ nav {
   background-color: #fad2e1;
   padding: 10px;
   text-align: center;
+  font-family: "Poetsen One", sans-serif;
 }
 
 nav a {
@@ -115,26 +116,6 @@ button {
   transition: background-color 0.3s ease, transform 0.2s ease;
   
 }
-
-/* .modal {
-  display: flex;
-  position: fixed;
-  z-index: 999;
-  left: 0;
-  top: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.8);
-  justify-content: center;
-  align-items: center;
-} */
-
-/* .modal img {
-  max-width: 80%;
-  max-height: 80%;
-  border-radius: 10px;
-  box-shadow: 0 0 20px #000;
-} */
 
 footer {
   background-color: #fad2e1;

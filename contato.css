@@ -88,6 +88,10 @@ nav a:hover {
   justify-content: center;
   flex-direction: column;
 }
+h3 {
+  text-align: justify;
+  justify-content: center;
+}
 
 .form {
   display: flex;
@@ -121,6 +125,7 @@ nav a:hover {
   border: none;
   border-radius: 5px;
   outline: none;
+  resize: none;
 }
 
 .form button {
@@ -138,8 +143,8 @@ nav a:hover {
 
 @media (max-width: 480px) {
   nav a {
-    display: block;
-    margin: 10px 0;
+   margin: 10px 5px;
+   display: inline-block;
   }
 
   .contact {
@@ -164,6 +169,7 @@ nav a:hover {
   .form textarea,
   .form button {
     font-size: 16px;
+    resize: none;
   }
 
   .icon {
