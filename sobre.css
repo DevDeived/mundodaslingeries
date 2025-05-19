@@ -15,8 +15,7 @@ body {
   margin: 0;
   font-family: "Poetsen One", sans-serif;
   background-color: #fbeaf2;
-  color: #3b3b3b;
-  font-weight: 200;
+  text-align: center;
 }
 
 header {
@@ -108,17 +107,14 @@ section.sobre::before {
   margin-top: 40px;
 }
 
-/* ===== Rodapé ===== */
-.footer {
+footer {
   background-color: #fad2e1;
   text-align: center;
   padding: 20px;
   font-size: 14px;
-  font-weight: 300;
-  color: #3b3b3b;
+  font-weight: 200;
 }
 
-/* ===== Responsividade ===== */
 @media (max-width: 768px) {
   .sobre-container {
     padding: 30px 15px;
